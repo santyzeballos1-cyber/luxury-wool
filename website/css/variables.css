@@ -1,0 +1,76 @@
+/* ==========================================================
+                    LUXURY WOOL
+                  VARIABLES GLOBALES
+========================================================== */
+
+
+/*
+    :root guarda variables que podemos
+    reutilizar en todo el proyecto.
+*/
+
+
+:root {
+
+
+    /* ==========================
+            COLORES
+    ========================== */
+
+
+    --color-background: #000000;
+
+    --color-primary: #F5F1E8;
+
+    --color-secondary: #111111;
+
+    --color-transparent: transparent;
+
+
+
+    /* ==========================
+            TIPOGRAFÍA
+    ========================== */
+
+
+    --font-main: Arial, Helvetica, sans-serif;
+
+
+
+    /* ==========================
+            ESPACIADOS
+    ========================== */
+
+
+    --spacing-small: 10px;
+
+    --spacing-medium: 25px;
+
+    --spacing-large: 50px;
+
+
+
+    /* ==========================
+            TRANSICIONES
+    ========================== */
+
+
+    --transition-fast: .3s ease;
+
+    --transition-normal: .5s ease;
+
+
+
+    /* ==========================
+            Z-INDEX
+    ========================== */
+
+
+    --layer-header: 10;
+
+    --layer-menu: 100;
+
+    --layer-overlay: 90;
+
+
+}

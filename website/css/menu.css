@@ -1,0 +1,232 @@
+/* ==========================================================
+                    LUXURY WOOL
+                     MENU CSS
+========================================================== */
+
+
+
+/* ==========================================================
+                    MENÚ LATERAL
+========================================================== */
+
+
+
+.side-menu {
+
+
+    position: fixed;
+
+
+    top: 0;
+
+
+    left: -350px;
+
+
+    width: 350px;
+
+
+    height: 100vh;
+
+
+    background-color: var(--color-secondary);
+
+
+    padding: 40px;
+
+
+    z-index: var(--layer-menu);
+
+
+    transition: var(--transition-normal);
+
+
+}
+
+
+
+
+
+/*
+    Estado abierto
+
+    JavaScript agregará
+    la clase "active"
+*/
+
+
+
+.side-menu.active {
+
+
+    left: 0;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================================================
+                    BOTÓN CERRAR
+========================================================== */
+
+
+
+.menu__close {
+
+
+    position: absolute;
+
+
+    top: 25px;
+
+
+    right: 25px;
+
+
+    color: var(--color-primary);
+
+
+    font-size: 35px;
+
+
+    transition: var(--transition-fast);
+
+
+}
+
+
+
+
+
+.menu__close:hover {
+
+
+    transform: rotate(90deg);
+
+
+}
+
+
+
+
+
+
+
+/* ==========================================================
+                    NAVEGACIÓN
+========================================================== */
+
+
+
+.menu__navigation {
+
+
+    margin-top: 80px;
+
+
+    display: flex;
+
+
+    flex-direction: column;
+
+
+    gap: 35px;
+
+
+}
+
+
+
+
+
+
+
+.menu__navigation a {
+
+
+    color: var(--color-primary);
+
+
+    font-size: 13px;
+
+
+    letter-spacing: 4px;
+
+
+    text-transform: uppercase;
+
+
+    transition: var(--transition-fast);
+
+
+}
+
+
+
+
+
+.menu__navigation a:hover {
+
+
+    opacity: .6;
+
+
+}
+
+
+
+
+
+
+
+/* ==========================================================
+                    OVERLAY
+========================================================== */
+
+
+
+.menu-overlay {
+
+
+    position: fixed;
+
+
+    inset: 0;
+
+
+    background-color: rgba(0,0,0,.5);
+
+
+    opacity: 0;
+
+
+    visibility: hidden;
+
+
+    z-index: var(--layer-overlay);
+
+
+    transition: var(--transition-normal);
+
+
+}
+
+
+
+
+
+.menu-overlay.active {
+
+
+    opacity: 1;
+
+
+    visibility: visible;
+
+
+}

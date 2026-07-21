@@ -1,0 +1,58 @@
+/* ==========================================================
+                    LUXURY WOOL
+                    FOOTER CSS
+========================================================== */
+
+
+/*
+    Actualmente Luxury Wool funciona
+    como una portada de marca.
+
+    Este archivo queda preparado
+    para futuras secciones del footer.
+*/
+
+
+
+.footer {
+
+
+    width: 100%;
+
+
+    padding: 40px;
+
+
+    display: flex;
+
+
+    justify-content: center;
+
+
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+.footer a {
+
+
+    color: var(--color-primary);
+
+
+    font-size: 12px;
+
+
+    letter-spacing: 4px;
+
+
+    text-transform: uppercase;
+
+
+}
